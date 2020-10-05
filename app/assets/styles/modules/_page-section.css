@@ -19,4 +19,23 @@
         margin: auto;
         margin-top: 30px;
     }
+
+    &__subheadline {
+        text-transform: uppercase;
+        font-size: 110%;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 0.8rem 0;
+    }
+
+    &__subheadline:after {
+        display: block;
+        height: 1px;
+        background-color: $mainColor;
+        content: " ";
+        width: 80px;
+        margin: 0.5rem auto 1.2rem auto;
+    
+    }
 }

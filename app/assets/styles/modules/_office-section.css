@@ -1,0 +1,20 @@
+.office-section {
+
+    &__image {
+        max-width: 100%;
+    }
+
+    &__icon--small {
+        display: inline-block;
+        font-size: 120%; 
+        text-align: center;
+        margin-right: 1rem;   
+        color: $mainColor;
+
+        /* lining up icons and text */
+        vertical-align: middle;
+        margin-top: -3px;
+    }
+}
+
+/* Cheltenham Moreton-in-Marsh Stow-on-the-Wold Stroud */

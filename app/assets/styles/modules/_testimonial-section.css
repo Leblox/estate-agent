@@ -1,0 +1,9 @@
+.testimonial-section {
+    background-color: #f4f4f4;
+
+
+    &__box {
+        background-color: pink;
+        padding: 2rem;
+    }
+}
