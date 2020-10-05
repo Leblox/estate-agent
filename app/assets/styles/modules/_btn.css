@@ -1,0 +1,31 @@
+.btn {
+
+    &:link,
+    &:visited {
+        display: inline-block;
+        padding: 10px 30px;
+        font-weight: 300;
+        text-decoration: none;
+        border-radius: 200px;
+    }
+
+    /* FULL BUTTONS */
+
+    &--full:link,
+    &--full:visited {
+        background-color: $mainColor;
+        border: 1px solid $mainColor;
+        margin-right: 15px;
+    }
+
+    /* GHOST BUTTON */
+    &--ghost {
+        border: 1px solid $mainColor;
+        margin-right: 15px;
+    }
+
+    /* WHITE */
+    &--white {
+        color: #fff;
+    }
+}

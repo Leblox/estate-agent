@@ -1,0 +1,22 @@
+.page-section {
+    padding: 4rem 0 0 0;
+
+    &__headline {
+        text-transform: uppercase;
+        font-size: 180%;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+    }
+
+    &__headline:after {
+        display: block;
+        height: 2px;
+        background-color: $mainColor;
+        content: " ";
+        width: 100px;
+        margin: auto;
+        margin-top: 30px;
+    }
+}

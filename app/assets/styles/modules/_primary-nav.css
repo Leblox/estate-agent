@@ -1,0 +1,41 @@
+.primary-nav {
+    width: 100%;
+
+    &__logo {
+        float: left;
+        margin-top: 1.5rem;
+        height: 100px;
+        width: auto;
+        font-size: 4rem;
+        color: #fff;
+    }
+
+    &__menu {
+        float: right;
+        list-style: none;
+        margin-top: 2.3rem;
+
+        & li {
+            text-decoration: none;
+            list-style: none;
+            display: inline-block;
+            padding-right: 20px;
+        }
+
+        & li a:link,
+        & li a:visited {
+            color: #fff;
+            padding: 8px 0;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 90%;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.2s;
+        }
+
+        & li a:hover,
+        & li a:active {
+            border-bottom: 2px solid $mainColor;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.hero-section {
+    color: #fff;
+
+    &__image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/large/hero-john-dancy-uldC3dkgyns-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
+    &__text-box {
+        position: absolute;
+        width: 1140px;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__title {
+        font-weight: 300;
+        margin: 0;
+        font-size: 4.4rem;
+        padding-bottom: 2rem;
+    }
+
+}

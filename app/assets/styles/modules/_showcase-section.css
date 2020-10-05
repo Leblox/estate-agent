@@ -1,0 +1,37 @@
+.showcase-section {
+
+    &__row {
+        list-style: none;
+        width: 100%;
+  
+        @mixin clearfix {}
+    }
+
+    &__photo-container {
+        display: block;
+        float: left;
+        width: 25%;
+    }
+
+    &__single-photo {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    &__photo {
+        opacity: 0.7;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center;
+        transform: scale(1.15);
+        transition: transform 0.5s, opacity 0.5s;
+        overflow-y: hidden;
+    }
+
+    &__photo:hover {
+        opacity: 1;
+        transform: scale(1.04);
+    }
+}
