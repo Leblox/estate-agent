@@ -2,11 +2,13 @@
     color: #fff;
 
     &__image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/large/hero-john-dancy-uldC3dkgyns-unsplash.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/images/large/annie-spratt-4U9azPdkLOA-unsplash.jpg);
         background-size: cover;
         background-position: center;
         height: 100vh;
         background-attachment: fixed;
+
+        /** background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/large/hero-john-dancy-uldC3dkgyns-unsplash.jpg); **/
     }
 
     &__text-box {
