@@ -1,4 +1,7 @@
 .office-section {
+    &__office {
+        margin: 1rem;
+    }
 
     &__image {
         max-width: 100%;

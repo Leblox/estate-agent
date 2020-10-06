@@ -6,14 +6,20 @@
         justify-content: center safe;
     }
 
-    &-one-of-four-full {
-        flex: 1 1 25%;
-
+    &-showcase__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: safe;
+        flex-wrap: nowrap;
+    }
+    &__image {
+        max-width: 100%;
     }
 
     &-one-of-four {
         flex: 1 1 25%;
-        margin: 1rem;
+        background-color: pink;
+        
     }
 
     &-one-of-three {
