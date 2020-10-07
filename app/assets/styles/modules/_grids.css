@@ -1,0 +1,22 @@
+.grid {
+    display: grid;
+
+    &__contact {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-gap: 1rem;
+
+        
+        & label {
+            grid-column: 1 / 2;
+        }
+
+        & input {
+            grid-column: 2 / 3;
+        }
+
+    }
+
+
+
+}

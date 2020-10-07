@@ -1,3 +1,54 @@
 .contact {
-    background-color: white;;
+    
+    &-section {
+        width: 60%;
+    }
+    /* Button styling is in the _btn.css module */
+
+    &__form {
+        width: 100%;
+        margin: auto;
+
+        padding-top: 2rem;
+
+
+        & input[type=text],
+        & input[type=email],
+        & select,
+        & textarea {
+            width: 100%;
+            padding: 7px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+
+        & textarea {
+            height: 100px;
+        }
+
+        & input[type=checkbox] {
+            margin: 10px 5px 10px 0;
+        }
+
+        *:focus {outline: none;}
+
+        
+        & input[type=submit] {
+            justify-self: center;
+            padding: 10px 30px;
+            font-weight: 300;
+            text-decoration: none;
+            border-radius: 200px;
+            background-color: $mainColor;
+            border: 1px solid $mainColor;
+            margin-right: 15px;
+            color: white;
+
+        }
+
+        & input[type=submit]:hover {
+            background-color: $buttonHoverColor;
+            cursor: pointer;
+        }
+    }
 }

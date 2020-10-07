@@ -1,0 +1,13 @@
+.about {
+    
+    section {
+
+    }
+
+    &__icon {
+        font-size: 200%;
+        text-align: center;
+        color: $mainColor;
+        margin-bottom: 0.5rem;
+    }
+}

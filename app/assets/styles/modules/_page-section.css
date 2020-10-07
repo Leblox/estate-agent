@@ -44,6 +44,23 @@
         content: " ";
         width: 80px;
         margin: 0.5rem auto 1.2rem auto;
-    
     }
+
+    &__text {
+        line-height: 140%;
+
+        &--centered {
+            text-align: center;
+        }
+
+        &--narrow {
+            width: 80%;
+            margin: auto;
+        }
+
+        &--margin-top {
+            margin-top: 2rem;
+        }
+    }
+
 }

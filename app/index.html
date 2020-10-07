@@ -41,22 +41,27 @@
         <div class="page-section about-section">
             <div class="generic-content-container">
                 <div class="page-section__headline">About us</div>
-                <p class="page-section__text-content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in viverra lacus. Vivamus consequat urna scelerisque turpis lacinia efficitur. Duis pharetra gravida rhoncus. Suspendisse maximus urna sed lorem hendrerit sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                <p class="page-section__text page-section__text--narrow page-section__text--centered">
+                    When we started our family business back in 1986, we wanted to offer something different. We had three aims in mind: to deliver exceptional results on behalf of our clients, be honest and trustworthy and to provide the best customer service we possibly could. 
+                </p>
+                <p class="page-section__text page-section__text--narrow page-section__text--centered page-section__text--margin-top">
+                    With three generations of the family involved in the business, <br>we are a family run company believing in traditional values.  
                 </p>
                 <div class="flexbox-container">
                     <div class="flexbox-one-of-three">
-                        <p class="page-section__text-content">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in viverra lacus. Vivamus consequat urna scelerisque turpis lacinia efficitur. Duis pharetra gravida rhoncus.
+                        <ion-icon class="about__icon" name="heart"></ion-icon>
+                        <p class="page-section__text">
+                            Our independence and family ownership allow us to offer a level of service that others cannot match. We simply care more and try harder.
                         </p>
                     </div>
                     <div class="flexbox-one-of-three">
-                        <p class="page-section__text-content">
+                        <ion-icon class="about__icon" name="play-forward"></ion-icon>
+                        <p class="page-section__text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in viverra lacus. 
                         </p>
                     </div>
                     <div class="flexbox-one-of-three">
-                        <p class="page-section__text-content">
+                        <p class="page-section__text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in viverra lacus. Vivamus consequat urna scelerisque turpis lacinia efficitur. Duis pharetra gravida rhoncus.
                         </p>
                     </div>
@@ -254,63 +259,37 @@
         
         <div class="page-section contact-section generic-content-container">
             <div class="page-section__headline">We'd love to hear from you</div>
-            <p class="page-section__text-content">Drop in to one of our offices or complete the below form and a member of the team will call you back within one working day.</p>
+            <p class="page-section__text page-section__text--centered">Drop in to one of our offices or complete the below form and a member of the team will call you back within one working day.</p>
 
-            <form method="post" action="#" class="contact-form">
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="name">Name</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="text" name="name" id="name" placeholder="Your name" required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="email">Email</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="email" name="email" id="email" placeholder="Your email" required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="find-us">How did you find us?</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <select name="find-us" id="find-us">
-                            <option value="friends" selected>Friends</option>
-                            <option value="search">Seach engine</option>
-                            <option value="ad">Advertisement</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>Newsletter?</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="checkbox" name="news" id="news" checked>Yes, please
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>Drop us a line</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <textarea name="message" placeholder="Your message"></textarea>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>&nbsp;</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="submit" value="Send it!">
-                    </div>
-                </div>
-            </form>
+            <div class="contact__form">
+                <form method="post" action="#" class="grid grid__contact">
+
+                    <label for="name">Name</label>
+    
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+    
+            
+                    <label for="email">Email</label>
+                
+                    <input type="email" name="email" id="email" placeholder="Your email" required>
+                
+                    <label for="service-type">How may we help?</label>
+                
+                    <select name="service-type" id="service-type">
+                        <option value="selling">I'm looking to sell</option>
+                        <option value="buying" selected>I'm looking to buy</option>
+                        <option value="evaluation">Request evaluation</option>
+                        <option value="other">Other</option>
+                    </select>
+                
+                    <label for="message">Drop us a line</label>
+                
+                    <textarea name="message" placeholder="Your message"></textarea>
+                
+                    <input type="submit" value="Send">
+                    
+                </form>
+            </div>
         </div>
 
         <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
