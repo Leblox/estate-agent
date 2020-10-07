@@ -1,13 +1,18 @@
 .about {
     
-    section {
+    &-section {
 
+    }
+
+    &__box {
+        width: 100%;
+        font-size: 90%;
     }
 
     &__icon {
         font-size: 200%;
-        text-align: center;
         color: $mainColor;
         margin-bottom: 0.5rem;
+        text-align: center;
     }
 }
