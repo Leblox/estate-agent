@@ -1,6 +1,6 @@
 .footer {
     
-    &-section{
+    &-section {
         background-color: #333;
         color: #888;
         padding: 2rem 0 1rem 0;
@@ -19,13 +19,22 @@
     }
 
     &__social-nav {
-        position: absolute;
-        right: 0;
+        position: relative;
+        margin: auto;
+        
+        @mixin atSmall {
+            position: absolute;
+            right: 0;
+        }
     }
 
     &__social-icons {
         list-style: none;
-        float: right;
+        
+
+        @mixin atSmall {
+            float: right;
+        }
 
         & li {
             display: inline-block;

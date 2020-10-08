@@ -1,7 +1,10 @@
 .contact {
     
     &-section {
-        width: 60%;
+
+        @mixin atMedium{
+            width: 60%;
+        }
     }
     /* Button styling is in the _btn.css module */
 
@@ -43,6 +46,8 @@
             border: 1px solid $mainColor;
             margin-right: 15px;
             color: white;
+
+            justify-self: end;
 
         }
 

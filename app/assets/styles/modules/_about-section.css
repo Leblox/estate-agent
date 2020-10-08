@@ -1,13 +1,27 @@
 .about {
     
-    &-section {
-
-    }
-
     &__box {
         width: 100%;
-        font-size: 90%;
+        font-size: 1rem;
         line-height: 160%;
+        margin: auto;
+        text-align: center;
+
+        @mixin atSmall{
+            width: 60%;
+        }
+        
+        @mixin atMedium {
+            width: 100%;
+            padding: 0 1rem;
+            margin: 0 0;
+            text-align: left;
+        }
+    
+        @mixin atLarge {
+            padding: 0 2rem;
+        }
+        
     }
 
     &__icon {
@@ -15,5 +29,16 @@
         color: $mainColor;
         margin-bottom: 0.5rem;
         text-align: center;
+    }
+
+    &__text {
+        width: 90%;
+        margin: auto;
+        
+
+        @mixin atMedium {
+            width: 100%;
+            text-align: left;
+        }
     }
 }

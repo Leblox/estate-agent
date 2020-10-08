@@ -1,4 +1,8 @@
 .generic-content-container {
+    overflow: hidden;
     max-width: 1140px;
     margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
 }

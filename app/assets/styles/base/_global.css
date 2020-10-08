@@ -9,12 +9,14 @@ html {
 }
 
 body {
-    color: #000;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
-    font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+
+    @mixin atMedium {
+        
+    }
 }
 
 img {

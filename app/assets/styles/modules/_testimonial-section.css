@@ -1,20 +1,24 @@
 .testimonial {
 
-    @mixin clearfix {}
-    
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/large/hero-john-dancy-uldC3dkgyns-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
     background-attachment: fixed;
+            
+
     
 
     &__box {
         background-color: white;
         height: 100%;
+        border: 1px solid white;
         border-radius: 10px;
-        padding: 2rem 2rem 0 2rem;
-        margin-top: 2rem;
+        padding: 2rem 2rem 2rem 2rem;
+        margin: 7rem 1rem 1px 1rem;
+
+        @mixin atMedium {
+            margin: 2rem 1rem 1px 1rem; 
+        }
     }
 
     &__image {
@@ -35,7 +39,6 @@
         color: $mainColor;
         font-size: 120%;
     }
-
 
     &__text {
         margin-top: 1rem;

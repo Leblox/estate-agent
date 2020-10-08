@@ -20,19 +20,26 @@
     }
 
     &__photo {
-        opacity: 0.7;
+        
         width: 100%;
         height: auto;
         background-size: cover;
         background-position: center;
-        transform: scale(1.15);
-        transition: transform 0.5s, opacity 0.5s;
-        overflow-y: hidden;
+        overflow: hidden;
+
+        @mixin atSmall {
+            opacity: 0.7;
+            transform: scale(1.15);
+            transition: transform 0.5s, opacity 0.5s;
+        }
     }
 
     &__photo:hover {
-        opacity: 1;
-        transform: scale(1.04);
+
+        @mixin atSmall {
+            opacity: 1;
+            transform: scale(1.04);
+        }
     }
 
     &__flexphoto {
