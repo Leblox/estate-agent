@@ -14,9 +14,10 @@
     &__text-box {
         position: absolute;
         width: 1140px;
-        top: 65%;
+        top: 75%;
         left: 50%;
         transform: translate(-50%, -50%);
+
     }
 
     &__title {
