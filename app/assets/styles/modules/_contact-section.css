@@ -1,7 +1,8 @@
 .contact {
     
     &-section {
-
+        margin: auto;
+        
         @mixin atMedium{
             width: 60%;
         }

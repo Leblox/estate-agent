@@ -13,18 +13,35 @@
 
     &__text-box {
         position: absolute;
-        width: 1140px;
-        top: 75%;
+        width: 90%;
+        top: 85%;
         left: 50%;
         transform: translate(-50%, -50%);
+
+        @mixin atMedium {
+            position: absolute;
+            width: 1140px;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 
     }
 
     &__title {
         font-weight: 300;
         margin: 0;
-        font-size: 4.4rem;
+        font-size: 2.2rem;
         padding-bottom: 2rem;
+
+        @mixin atSmall {
+            font-size: 2.5rem;
+        }
+
+        @mixin atMedium {
+            font-size: 4.4rem;
+            padding-bottom: 2rem;
+        }
     }
 
 }

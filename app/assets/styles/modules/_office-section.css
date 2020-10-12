@@ -4,7 +4,12 @@
     }
 
     &__image {
-        max-width: 100%;
+        max-width: auto;
+        height: 170px;
+        width: 250px;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
     }
 
     &__icon--small {

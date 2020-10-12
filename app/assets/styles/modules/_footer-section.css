@@ -8,23 +8,34 @@
 
     &__text {
         display: block;
-        font-size: 90%;
+        font-size: 1rem;
         text-align: center;
+
+        @mixin atSmall {
+            font-size: 0.9rem;
+        }
     }
 
     &__logo {
         height: 100px;
         width: auto;
         font-size: 4rem;
+        margin-top: 2.5rem;
+
+        @mixin atSmall {
+            margin-top: 0;
+        }
     }
 
     &__social-nav {
-        position: relative;
-        margin: auto;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
         
         @mixin atSmall {
             position: absolute;
             right: 0;
+            transform: translate(0, 0);
         }
     }
 
@@ -42,7 +53,11 @@
         }
 
         & li:last-of-type {
-            margin-right: 3rem;
+            margin-right: 0;
+
+            @mixin atSmall {
+                margin-right: 3rem;
+            }
         }
 
         & li a:link,

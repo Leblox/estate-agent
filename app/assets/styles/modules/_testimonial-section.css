@@ -1,10 +1,12 @@
 .testimonial {
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/large/hero-john-dancy-uldC3dkgyns-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(/assets/images/large/hero-john-dancy-uldC3dkgyns-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-            
+        @mixin atSmall {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/large/hero-john-dancy-uldC3dkgyns-unsplash.jpg);
+        }
 
     
 
