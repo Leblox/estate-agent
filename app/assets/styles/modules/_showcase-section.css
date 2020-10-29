@@ -1,4 +1,5 @@
 .showcase-section {
+    background-color: #f4f4f4;
 
     &__row {
         list-style: none;

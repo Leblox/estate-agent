@@ -4,10 +4,8 @@
     &__logo {
         float: left;
         margin-top: 1.5rem;
-        height: 100px;
-        width: auto;
-        font-size: 4rem;
-        color: #fff;
+        height: auto;
+        width: 250px;
     }
 
     &__menu {
@@ -28,7 +26,6 @@
             padding: 8px 0;
             text-decoration: none;
             text-transform: uppercase;
-            font-size: 1.1rem;
             border-bottom: 2px solid transparent;
             transition: border-bottom 0.2s;
         }

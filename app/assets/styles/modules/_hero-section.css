@@ -1,5 +1,8 @@
 .hero-section {
-    color: #fff;
+    
+    &-section {
+        color: #fff;
+    }
 
     &__image {
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(assets/images/large/annie-spratt-4U9azPdkLOA-unsplash.jpg);
@@ -30,6 +33,7 @@
 
     &__title {
         font-weight: 300;
+        color: #fff;
         margin: 0;
         font-size: 2.2rem;
         padding-bottom: 2rem;
