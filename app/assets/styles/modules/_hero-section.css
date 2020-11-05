@@ -4,12 +4,19 @@
         color: #fff;
     }
 
-    &__image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(assets/images/large/annie-spratt-4U9azPdkLOA-unsplash.jpg);
-        background-size: cover;
-        background-position: center;
+    &__imagebox {
         height: 100vh;
+        width: 100%;
+        z-index: 1;
+        overflow: hidden;
         background-attachment: fixed;
+    }
+    &__image {
+        display: block;
+        width: 100%;
+        background-position: center;      
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+        
 
         /** background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/large/hero-john-dancy-uldC3dkgyns-unsplash.jpg); **/
     }
