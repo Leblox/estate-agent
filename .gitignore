@@ -13,6 +13,7 @@ node_modules/
 docs/
 dist/
 .tmp/
+large/
 
 # OS or Editor folders
 .DS_Store
